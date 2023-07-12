@@ -2,6 +2,7 @@ import Clicker from './Clicker.js'
 import { useMemo, useState } from 'react'
 import People from './People.js'
 
+
 export default function App({ clickersCount, children })
 {
     const [ count, setCount ] = useState(0)
